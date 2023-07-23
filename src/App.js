@@ -1,25 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/sidebar';
+import Welcome from './components/welcome';
+import RetireIncome from './components/retireIncome';
+import RetirementStrat from './components/retirementStrat';
+import './index.css'
+import BottomArt from './components/bottomArt';
+import BellFloating from './components/bellFloating';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className='dashboard flex flex-col md:flex-row md:ml-20'>
+    <BellFloating/>
+    <Sidebar/>
+    <Welcome/>
+    <RetireIncome/>
+    <RetirementStrat/>
+    <BottomArt/>
 
-export default App;
+
+    </div>
+  )
+}
