@@ -123,7 +123,7 @@ const RetireIncome = () => {
   };
 
   return (
-    <div className="retire-income px-8 md:px-20 pt-12 md:ml-4">
+    <div className="retire-income px-8 md:px-20 pt-12">
       <h2 className="font-roboto-slab font-bold text-accent text-sm">Retirement Income</h2>
       <h2 className="font-roboto-slab font-bold text-textDark text-xl">Starting Income 2056</h2>
       <div className="stats-row my-4 md:mb-8 flex flex-col md:flex-row justify-evenly">

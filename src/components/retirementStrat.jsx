@@ -14,7 +14,7 @@ const RetirementStrat = () => {
 
   return (
     <div>
-      <div className="bg-[#FBFBFA] px-8 py-8 mt-12 ml-0 md:ml-8 rounded-xl">
+      <div className="bg-[#FBFBFA] px-8 py-8 mt-12 ml-0 rounded-xl">
       <h1 className="font-roboto-slab text-semibold text-textDark text-lg mb-4">Retirement Strategy</h1>
       <h2 className="text-sm font-semibold text-gray-700 mb-2">Employee Contribution</h2>
       <div className="flex items-center">
@@ -62,7 +62,7 @@ const RetirementStrat = () => {
         </a>
       </div>
       </div>
-      <div className="hidden md:block mt-6   border-l-2 ml-8 border-accent px-4">
+      <div className="hidden md:block mt-6   border-l-2 border-accent px-4">
       <h2 className="text-gray-600 ">Are you considering a<br/><span className="font-bold text-gray-700">Housing Advance?</span></h2>
       <h2 className="text-gray-400 text-sm my-2">Limited time reduced interest.</h2>
       <a href="#"  className="text-accent font-semibold text-sm">{"Learn More >"}</a>
